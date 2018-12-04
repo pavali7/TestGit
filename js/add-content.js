@@ -1,3 +1,5 @@
+/*Komentarz*/
+//TO też
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
@@ -7,7 +9,7 @@ var greeting;
 	else if (hourNow > 12){
 		greeting = "Dzien dobry";} 
 	else if (hourNow > 0){
-		greeing = "dzien dobry";}
+		greeting = "dzien dobry";}
 	else {
 		greeting = "Witamy";}
-	document.write('<h3>' + greeting + '</h3'>);
+	document.write('<h3>'+greeting+'</h3>');
